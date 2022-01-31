@@ -1,4 +1,5 @@
-# Zabbix Review and Export/Import
+# Export/Import Zabbix objects
+
 With Zabbix review and export (backup)/import you can create review mechanism and save/restore zabbix configuration as code (Monitoring as Code)
 
 You can export (backup) all hosts templates and other object with `zabbix-export.py` script.
@@ -89,17 +90,3 @@ Representing objects as JSON using the API:
 ## Known issues
 - [ZBX-15175](https://support.zabbix.com/browse/ZBX-15175): Zabbix export - host's xml does not contain overrides or diff to templates (e.g. item's storage period, trigger.priority, trigger.status=disables\enabled)
 - [ZBXNEXT-4862](https://support.zabbix.com/browse/ZBXNEXT-4862): The implementation of functionality in Zabbix. Zabbix configuration as code - save XML in git repository
-
-
-## Screenshots
-YAML change action:
-![yaml-change-action.png](./docs/yaml-change-action.png)
-
-YAML change trigger expression:
-![yaml-change-trigger-expression.png](./docs/yaml-change-trigger-expression.png)
-
-YAML link template
-![yaml-link-template.jpg](./docs/yaml-link-template.jpg)
-
-XML change templates (but we recommend use YAML for review and XML only for backup):
-![xml-change-templates.jpg](./docs/xml-change-templates.jpg)
