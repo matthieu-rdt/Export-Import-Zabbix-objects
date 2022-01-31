@@ -21,7 +21,7 @@ autodetected, but may be pointed manually (it is much faster for single-file imp
 - Installed [Python >=3.4](https://www.python.org/downloads/)
 
 
-If you want use [review (or Monitoring as Code](#make-review):
+If you want use [review (or Monitoring as Code)](#make-review):
 - [GitLab](https://gitlab.com/) - you own instance with configured [GitLab CI](https://docs.gitlab.com/ee/ci/) or cloud account
 - `git`
 
